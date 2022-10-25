@@ -2,7 +2,7 @@
 
 ## 프로필
 
-이것은 오픈 소스 프레임 워크 [GameFramework] [1] (이하 GF라고하는)를 기반으로 한 타워 방어 게임 데모입니다. 데모 프로토 타입은 공식적으로 데모 [타워 방어 템플릿] [2]에 공식적으로 배치된다. 이 프로젝트는 GF를 사용하여 다시 구현되고 데모 프로토 타입으로 확장됩니다. 주로 GF의 개인 학습 및 실습에 사용되며 GF를 공부하는 다른 학생들에게도 제공합니다.
+이것은 오픈 소스 프레임 워크 [GameFramework][1] (이하 GF라고하는)를 기반으로 한 타워 방어 게임 데모입니다. 데모 프로토 타입은 공식적으로 데모 [타워 방어 템플릿] [2]에 공식적으로 배치된다. 이 프로젝트는 GF를 사용하여 다시 구현되고 데모 프로토 타입으로 확장됩니다. 주로 GF의 개인 학습 및 실습에 사용되며 GF를 공부하는 다른 학생들에게도 제공합니다.
 
 ## 버전 정보
 
@@ -10,14 +10,14 @@
 - GameFramework 2020.07.30
 - Tower Defense Template 1.4
 
-####
+#### 게임 프로필
 
 ### 게임 미리보기
 
-! [소개 1] [4]
-! [소개 2] [5]
-! [소개 3] [13]
-! [소개 4] [14]
+![소개 1][4]
+![소개 2][5]
+![소개 3][13]
+![소개 4][14]
 
 ### 게임 소개
 
@@ -64,31 +64,29 @@
 
 ### 데이터 구성
 
-! [데이터 구성] [6]
+![데이터 구성][6]
 게임의 모든 데이터는 Excel로 구성되며 이진 파일의 내보내기가로드되고 런타임 후에 읽습니다.
-### 현지화
 
-! [현지화] [7]
+### 현지화
+![현지화][7]
 현지화 된 모듈 및 변형을 리소스 모듈에 사용하여 현지화를 달성하십시오.
 
 ### 견적 수영장
-
-! [견적 풀] [8]
+![견적 풀][8]
 프로젝트의 많은 재사용 개체는 메모리 분포를 자주 피하기 위해 캐시의 참조 풀을 사용합니다.
 
 ### 리소스 포장 구성
-
-! [리소스 포장 구성 1] [9]
-! [리소스 포장 구성 2] [10]
+![리소스 포장 구성 1][9]
+![리소스 포장 구성 2][10]
 모든 리소스가 포장 및 할당되었으며 올바른 하청 계약 정보, 파일 시스템이 설정됩니다. 그리고 0 중복 및 0 사이클 참조를 달성하기위한 구축 된 분석 도구를 기반으로합니다.
-### 핫 업데이트
 
-! [핫 업데이트] [11]
+### 핫 업데이트
+![핫 업데이트][11]
 게임 시작은 버전 정보를 감지하고 기본 리소스 (즉, 비 레벨의 리소스)를 업데이트합니다.
 
 ### 하위 다운로드 다운로드
 
-! [핫 업데이트] [12]
+![핫 업데이트][12]
 게임은 각 레벨 리소스에 대해 별도로 하청 계약을 맺습니다. 레벨에 들어가기 전에 해당 리소스를 다운로드하고 업데이트해야하지만 한동안 재생되지 않은 레벨은 한동안 다운로드 할 수 없습니다.
 ## 지침
 
@@ -96,19 +94,19 @@
 
 ## 결론
 
-저자 [Ellan Jiang] [3]가 제공 한 훌륭한 프레임 워크에 감사드립니다.
+저자 [Ellan Jiang][3]가 제공 한 훌륭한 프레임 워크에 감사드립니다.
 
   [1]: https://github.com/EllanJiang/GameFramework "GF link"
   [2]: https://assetstore.unity.com/packages/essentials/tutorial-projects/tower-defense-template-107692 "Tower Defense Template Link"
   [3]: https://github.com/EllanJiang "Ellan Jiang link"
   [4]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/1.png "소개 1"
-  [5]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/2.JPG"소개 2"
+  [5]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/2.JPG "소개 2"
   [6]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/3.png "데이터 구성"
-  [7]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/4.JPG"현지화"
-  [8]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/5.png"인용 된 연못"
+  [7]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/4.JPG "현지화"
+  [8]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/5.png "인용 된 연못"
   [9]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/6.png "리소스 포장 구성 1"
   [10]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/7.png "리소스 포장 구성 2"
   [11]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/8.png "핫 업데이트"
-  [12]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/9.png"서브 포장 다운로드"
+  [12]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/9.png "서브 포장 다운로드"
   [13]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/10.gif "소개 3"
   [14]: https://github.com/DrFlower/TowerDefense-GameFramework-Demo/blob/master/Doc/11.gif "소개 4"
